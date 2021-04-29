@@ -1,6 +1,6 @@
 # arduino-1.3-oled-temp
  
-![](images/1.3 oled and temp image)
+![](images/1.3 oled and temp image.jpg)
 
 this code and libray's are for a 1.3 inch oled display and DHT11/22 temperature sensor 
 
