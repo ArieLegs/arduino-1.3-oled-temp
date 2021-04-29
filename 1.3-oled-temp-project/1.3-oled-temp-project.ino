@@ -1,3 +1,6 @@
+// my channel https://www.youtube.com/channel/UCu3tB56Iho4kh9OmMYL498Q
+
+
 #include <Wire.h>        //i2c library
 #include <Adafruit_GFX.h>     //display library
 #include <Adafruit_SH1106.h>  //display library
