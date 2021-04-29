@@ -6,9 +6,9 @@ this code and libray's are for a 1.3 inch oled display and DHT11/22 temperature 
 
 NOTE!: you need to download the GFX library in the arduino IDE!
 
-<img src="images/adafruitGFX.png" width="300" height="300">
+<img src="images/adafruitGFX.png" width="600" height="400">
 
-<img src="images/adaGFX.png" width="300" height="300">
+<img src="images/adaGFX.png" width="600" height="400">
 
 
 
