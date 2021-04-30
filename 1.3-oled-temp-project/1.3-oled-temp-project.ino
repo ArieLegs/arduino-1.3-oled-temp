@@ -24,8 +24,8 @@ void setup() {
   
   display.begin(SH1106_SWITCHCAPVCC, 0x3C); //display setup
   display.clearDisplay(); 
-  display.setTextColor(WHITE);        
-   
+  display.setTextColor(WHITE); 
+  display.clearDisplay(); 
 }
 
 void loop() {
@@ -33,12 +33,16 @@ void loop() {
 humidity=HT.readHumidity();
 temperatureC=HT.readTemperature();
 
+  display.setCursor(15,0);
+  display.setTextSize(1);
+  display.print("DIY bot computers");
+
   display.setTextSize(2); 
-  display.setCursor(20,7);
+  display.setCursor(20,20);
   display.print(temperatureC);
   display.print(" C");
   
-  display.setCursor(20,40);
+  display.setCursor(20,45);
   display.setTextSize(2);
   display.print(humidity);
   display.print(" %");
